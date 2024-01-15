@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+        background-color: rgba(227, 184, 17, 0.97);
+    }
+    #containter{
+      width: 335px;
+      height: 450px;
+      background-color: white;
+      margin: auto;
+      padding: 20px;
+      border: 1px black solid;
+      border-radius: 5%;
+    }
+    #containter>img:first-of-type{
+      border-radius: 5%;
+    }
+    #containter>button{
+      background-color: rgba(227, 192, 17, 0.97);
+      border: none;
+      border-radius: 10%;
+      font-weight: bold;
+      padding: 5px;
+    }
+    h5{
+      margin-top: 5px;
+    }
+    p{
+      color: grey;
+    }
+    h3:hover{
+      color: #ffcc00;
+    }
+    span{
+      position: relative;
+      top:-30px;
+      font-weight: bold;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="containter">
+    <img src="assets/images/illustration-article.svg" width="336" height="201"/>
+    <button>Learning</button>
+    <h5>Published 21 Dec 2023</h5>
+    <h3>HTML & CSS foundations</h3>
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <img src="assets/images/image-avatar.webp" width="64" height="65"><span>Greg Hooper</span>
+  </div>
+</body>
+</html>
